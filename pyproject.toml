@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "A set of math games to warm up your brain"
 authors = ["DSungatulin <sungatulindaniyar@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "brain_games" },]
+classifiers = ["Topic :: Games/Entertainment"]
+repository = "https://github.com/DSungatulin/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -20,3 +22,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
