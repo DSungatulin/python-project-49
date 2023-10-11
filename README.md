@@ -3,13 +3,13 @@
 [![Actions Status](https://github.com/DSungatulin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/DSungatulin/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2581ad2594ed7cb96796/maintainability)](https://codeclimate.com/github/DSungatulin/python-project-49/maintainability)
 
-##Description
+## Description
 
 Brain Games is a set of math games to warm up your brain.
 
-##Dependencies
+## Dependencies
 
-##Installation
+## Installation
 
 1. Clone the repo
 
@@ -35,7 +35,7 @@ brain-even
 
 [asciicast2gif](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374)
 
-![Demo](demo.gif)
+![Demo](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374.gif)
 
 ## Brain Calc
 
