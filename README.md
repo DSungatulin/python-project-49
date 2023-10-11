@@ -9,7 +9,7 @@ Brain Games is a set of math games to warm up your brain.
 
 ## Dependencies
 
-## Installation
+##Installation
 
 1. Clone the repo
 
@@ -35,7 +35,7 @@ brain-even
 
 [asciicast2gif](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374)
 
-![Demo](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374.gif)
+![Demo](demo.gif)
 
 ## Brain Calc
 
