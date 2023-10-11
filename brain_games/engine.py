@@ -27,8 +27,7 @@ def run_game_engine(game):
         if user_answer.lower() == correct_answer:
             print('Correct!')
             winstreak += 1
-            if winstreak == 3:
-                print(f'Congratulations, {user_name}!')
+            print(f'Congratulations, {user_name}!')
         else:
             report_incorrect_answer(user_answer, correct_answer, user_name)
             break
