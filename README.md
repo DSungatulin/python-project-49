@@ -43,27 +43,26 @@ Guess the result of a mathematical expression
 brain-calc
 ```
 
-![https://asciinema.org/a/O6ST9KtLmnbutSaJE1xpFQjcK](https://asciinema.org/a/O6ST9KtLmnbutSaJE1xpFQjcK)
-
+![](https://github.com/DSungatulin/python-project-49/blob/main/brain-calc.gif)
 ## Brain GCD
 
-Guess the greater common divisor of two numbers
+Guess the greatest common divisor of two numbers
 
 ```bash
 brain-gcd
 ```
 
-![https://asciinema.org/a/1WSLwxd4n86j4DErTLfBUdiob](https://asciinema.org/a/1WSLwxd4n86j4DErTLfBUdiob)
+![](https://github.com/DSungatulin/python-project-49/blob/main/brain-gcd.gif)
 
 ## Brain Progression
 
-Guess missing number in arithmetic progression
+Guess missing number in progression
 
 ```bash
 brain-progression
 ```
 
-![https://asciinema.org/a/UMtXQne3tJk7ktusQPIzb3H2G](https://asciinema.org/a/UMtXQne3tJk7ktusQPIzb3H2G)
+![](https://github.com/DSungatulin/python-project-49/blob/main/brain-progression.gif)
 
 ## Brain Prime
 
@@ -73,4 +72,4 @@ Guess if the given number is prime
 brain-prime
 ```
 
-![https://asciinema.org/a/7NEVaLj8rFOAoryR38MhCHF4c](https://asciinema.org/a/7NEVaLj8rFOAoryR38MhCHF4c)
+![](https://github.com/DSungatulin/python-project-49/blob/main/brain-prime.gif)
