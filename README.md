@@ -74,4 +74,4 @@ brain-prime
 
 ![](https://github.com/DSungatulin/python-project-49/blob/main/brain-prime.gif)
 
-<img src="https://github.com/DSungatulin/python-project-49/blob/main/brain-prime.gif" width="716" height="318" />
+<img src="https://github.com/DSungatulin/python-project-49/blob/main/brain-prime.gif" width="750" height="308" />
