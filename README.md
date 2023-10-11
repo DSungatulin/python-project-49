@@ -33,7 +33,9 @@ Guess if the given number is even
 brain-even
 ```
 
-![https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374)
+[asciicast2gif](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374)
+
+![Demo](demo.gif)
 
 ## Brain Calc
 
