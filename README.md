@@ -33,9 +33,7 @@ Guess if the given number is even
 brain-even
 ```
 
-[asciicast2gif](https://asciinema.org/a/0lqhiS7oLTiEUczai7orFo374)
-
-![Demo](demo.gif)
+[](https://github.com/DSungatulin/python-project-49/blob/main/brain-calc.gif)
 
 ## Brain Calc
 
