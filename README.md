@@ -73,3 +73,5 @@ brain-prime
 ```
 
 ![](https://github.com/DSungatulin/python-project-49/blob/main/brain-prime.gif)
+
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="716" height="318" />
