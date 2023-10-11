@@ -1,6 +1,9 @@
 import prompt
 
 
+ROUNDS = 3
+
+
 def report_incorrect_answer(user_answer, correct_answer, user_name):
     report_incor_ans = f'"{user_answer}" is wrong answer ;(.' \
         f'Correct answer was "{correct_answer}".' \
@@ -11,10 +14,10 @@ def report_incorrect_answer(user_answer, correct_answer, user_name):
 def run_game_engine(game):
     print("Welcome to the Brain Games!")
     user_name = prompt.string('May I have your name? ')
+    winstreak = 0
     print('Hello, {}!'.format(user_name))
     print(game.RULES)
-    winstreak = 0
-    while winstreak < 3:
+    while winstreak < ROUNDS:
         question_and_answer = game.make_task()
         question = question_and_answer[0]
         correct_answer = str(question_and_answer[1])
