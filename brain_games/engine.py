@@ -32,17 +32,3 @@ def run_game_engine(game):
             report_incorrect_answer(user_answer, correct_answer, user_name)
             break
     print(f'Congratulations, {user_name}!')
-    # while winstreak < ROUNDS:
-    #     question_and_answer = game.make_task()
-    #     question = question_and_answer[0]
-    #     correct_answer = str(question_and_answer[1])
-    #     print(f'Question: {question}')
-    #     user_answer = prompt.string("Your answer: ")
-
-    #     if user_answer.lower() == correct_answer:
-    #         print('Correct!')
-    #         winstreak += 1
-    #         print(f'Congratulations, {user_name}!')
-    #     else:
-    #         report_incorrect_answer(user_answer, correct_answer, user_name)
-    #         break
