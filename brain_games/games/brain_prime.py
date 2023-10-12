@@ -9,14 +9,14 @@ def choose_number():
 
 
 def is_prime(number):
-    n = 0
+    i = 0
     if number <= 1:
         return False
 
-    for i in range(2, number // 2 + 1):
-        if (number % i == 0):
-            n += 1
-    if (n == 0):
+    for k in range(2, number // 2 + 1):
+        if (number % k == 0):
+            i += 1
+    if (i == 0):
         return True
     else:
         return False
