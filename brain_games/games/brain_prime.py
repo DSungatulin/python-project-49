@@ -12,14 +12,14 @@ def is_prime(number):
     i = 0
     if number <= 1:
         return False
-
-    for k in range(2, number // 2 + 1):
-        if (number % k == 0):
-            i += 1
-    if (i == 0):
-        return True
     else:
-        return False
+        for k in range(2, number // 2 + 1):
+            if (number % k == 0):
+                i += 1
+        if (i == 0):
+            return True
+        else:
+            return False
 
 
 def make_task():
