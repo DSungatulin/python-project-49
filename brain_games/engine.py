@@ -14,20 +14,16 @@ def report_incorrect_answer(user_answer, correct_answer, user_name):
 def run_game_engine(game):
     print("Welcome to the Brain Games!")
     user_name = prompt.string('May I have your name? ')
-    winstreak = 0
-    print('Hello, {}!'.format(user_name))
+    print(f'Hello, {user_name}')
     print(game.RULES)
     for _ in range(ROUNDS):
-        question_and_answer = game.make_task()
-        question = question_and_answer[0]
-        correct_answer = str(question_and_answer[1])
+        question, correct_answer = game.make_task()
         print(f'Question: {question}')
         user_answer = prompt.string("Your answer: ")
 
-        if user_answer == correct_answer:
+        if user_answer.lower() == correct_answer:
 
             print("Correct!")
-            winstreak += 1
         else:
             report_incorrect_answer(user_answer, correct_answer, user_name)
             break
