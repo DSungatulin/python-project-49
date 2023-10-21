@@ -3,10 +3,12 @@ from random import randint, choice
 
 RULES = 'What is the result of the expression?'
 OPERATORS = ("+", "-", "*")
+MIN_NUMBER = 0
+MAX_NUMBER = 100
 
 
 def choose_number():
-    random_number = randint(0, 100)
+    random_number = randint(MIN_NUMBER, MAX_NUMBER)
     return random_number
 
 

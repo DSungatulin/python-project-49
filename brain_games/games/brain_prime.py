@@ -2,10 +2,12 @@ from random import randint
 
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MIN_NUMBER = 0
+MAX_NUMBER = 100
 
 
 def choose_number():
-    return randint(0, 10)
+    return randint(MIN_NUMBER, MAX_NUMBER)
 
 
 def is_prime(number):
@@ -18,8 +20,6 @@ def is_prime(number):
             i += 1
     if (i == 0):
         return True
-    else:
-        return False
 
 
 def make_task():
@@ -31,6 +31,5 @@ def make_task():
 
 def get_correct_answer(number):
     if is_prime(number):
-        return "yes"
-    else:
-        return "no"
+        return 'yes'
+    return 'no'

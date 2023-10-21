@@ -3,10 +3,12 @@ from math import gcd
 
 
 RULES = 'Find the greatest common divisor of given numbers.'
+MIN_NUMBER = 0
+MAX_NUMBER = 100
 
 
 def choose_number():
-    return randint(0, 100)
+    return randint(MIN_NUMBER, MAX_NUMBER)
 
 
 def make_task():

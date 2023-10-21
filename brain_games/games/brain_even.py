@@ -1,17 +1,16 @@
 from random import randint
 
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+MIN_NUMBER = 0
+MAX_NUMBER = 100
 
 
 def choose_number():
-    return randint(0, 100)
+    return randint(MIN_NUMBER, MAX_NUMBER)
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0
 
 
 def make_task():

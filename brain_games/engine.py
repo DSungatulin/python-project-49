@@ -21,10 +21,9 @@ def run_game_engine(game):
         print(f'Question: {question}')
         user_answer = prompt.string("Your answer: ")
 
-        if user_answer.lower() == correct_answer:
+        if user_answer.lower() != str(correct_answer):
 
-            print("Correct!")
-        else:
             report_incorrect_answer(user_answer, correct_answer, user_name)
-            break
+            return
+        print('Correct!')
     print(f'Congratulations, {user_name}!')
